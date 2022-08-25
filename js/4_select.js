@@ -1,7 +1,7 @@
 const db = require('./_database')
 
 async function listData(){
-  await db.connect()
+  await db.connect() 
   var result
   // Eventos
   result = await db.query("SELECT * FROM evento")

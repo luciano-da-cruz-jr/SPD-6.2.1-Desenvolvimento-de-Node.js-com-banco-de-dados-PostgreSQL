@@ -1,11 +1,10 @@
-const pg = require('pg')
-
-const client = new pg.Client({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'postgres',
-  password: 'postgres',
-  port: 5432,
+const Client = require('pg').Client
+const client = new Client({
+    user: "postgres",
+    password: "postgres",
+    host: "127.0.0.1",
+    port: 5432,
+    database: "postgres"
 })
 
 module.exports = client

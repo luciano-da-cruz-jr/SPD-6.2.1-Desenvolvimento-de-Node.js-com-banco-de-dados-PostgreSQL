@@ -1,14 +1,14 @@
 {
-  "name": "aula_node_postgres",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "dependencies": {
-    "pg": "^7.8.1",
-    "sequelize": "^4.42.0"
+    "pg": "^8.7.3"
   },
-  "devDependencies": {},
-  "scripts": {},
+  "name": "intro_node_pg_sequelize",
+  "description": "**Repositório utilizado na aula de introdução ao Node com Postgres e Sequelize**",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "",
   "license": "ISC"
 }

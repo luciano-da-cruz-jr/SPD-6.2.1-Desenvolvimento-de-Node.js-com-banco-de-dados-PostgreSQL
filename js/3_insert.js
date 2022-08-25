@@ -2,7 +2,7 @@ const db = require('./_database')
 
 async function insertData(){
   await db.connect()
-  // Criar Eventos
+  // Criar Eventos 
 
   const queryEvento = "INSERT INTO evento (nome) VALUES ($1)"
 
