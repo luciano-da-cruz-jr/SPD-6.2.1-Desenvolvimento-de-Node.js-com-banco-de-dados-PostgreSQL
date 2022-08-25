@@ -6,6 +6,10 @@ const Evento = sequelize.define('evento', {
   nome: {
     type: Sequelize.STRING
   },
+  data: {
+    type: Sequelize.DATE,
+    allowNull: false
+  }
 })
 module.exports = Evento
 

@@ -24,10 +24,10 @@ async function select(){
       }
     ]
   })
-  eventosComParticipantes.forEach((evento) => {
-    console.log("Evento: ", evento.nome)
-    evento.participantes.forEach((participante) => {
-      console.log("----------> Participante: ", participante.nome)
+  eventosComParticipantes.forEach((eventos) => {
+    console.log("Evento: ", eventos.nome)
+    eventos.participantes.forEach((participantes) => {
+      console.log("----------> Participante: ", participantes.nome)
     })
   })
   console.log("\n");
